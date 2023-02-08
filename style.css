@@ -1,0 +1,108 @@
+#titre {
+  color: #575F7D;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+#follow {
+  color: #7ECE90;
+  text-decoration: none;
+}
+
+#youtube {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: black;
+}
+
+.fab  {
+color: #67AAF9;
+font-size: 32px;
+
+}
+.fa-brands {
+  color: #67AAF9;
+  font-size: 32px;
+
+}
+
+.fab:hover {
+  color: black;
+}
+
+.fa-brands:hover {
+  color: black;
+
+}
+
+#photo {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+}
+
+.container {
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 40%;
+  margin: 0 auto;
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+
+.button {
+  background-color: #6B72E1;
+  text-align: center;
+  border-radius: 12px;
+  margin: 0 auto;
+  width: 90%;
+  padding: 15px;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0px 20px;
+
+}
+ul{
+  margin-right: 48px;
+}
+
+body {
+ background-color: #F7F9FC;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+  .button {
+    width: 50%;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+  .button {
+    width: 60%;
+  }
+}
+
+@media (max-width: 240px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 100px;
+  }
+  .button {
+    width: 60%;
+  }
+}
